@@ -1,6 +1,14 @@
 package com.esdraz.poo.heranca;
 
-public class Cachorro  extends Animal{
+public class Cachorro extends Animal{
+
+    public Cachorro() {
+    }
+
+    //Construtor herdando as caracteristicas da classe Animal
+    public Cachorro(String cor, int tamanho, int quantidadesDePatas, double peso) {
+        super(cor, tamanho, quantidadesDePatas, peso);
+    }
 
     public void latir() {
         System.out.println("Latindo...");
