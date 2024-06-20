@@ -19,4 +19,9 @@ public class Passaro extends Animal{
         super.correr(); //implementação padrão
         System.out.println("passado de " + this.quantidadesDePatas + " patas");
     }
+
+    @Override
+    public void comer() {
+        System.out.println("comendo alpiste...");
+    }
 }

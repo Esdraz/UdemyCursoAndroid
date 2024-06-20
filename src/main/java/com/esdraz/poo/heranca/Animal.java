@@ -26,4 +26,6 @@ public abstract class Animal {
     public void dormir() {
         System.out.println("Dormir...");
     }
+
+    public abstract void comer();
 }

@@ -24,4 +24,9 @@ public class Cachorro extends Animal{
         super.correr(); //implementação padrão
         System.out.println("cachorro de " + this.quantidadesDePatas + " patas");
     }
+
+    @Override
+    public void comer() {
+        System.out.println("comendo ração...");
+    }
 }

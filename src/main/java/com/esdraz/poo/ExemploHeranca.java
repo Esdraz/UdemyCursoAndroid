@@ -12,6 +12,7 @@ public class ExemploHeranca {
         cachorro.correr();
         cachorro.dormir();
         cachorro.latir();
+        cachorro.comer();
 
         Passaro passaro = new Passaro();
 
@@ -19,5 +20,6 @@ public class ExemploHeranca {
         passaro.correr();
         passaro.dormir();
         passaro.voar();
+        passaro.comer();
     }
 }
